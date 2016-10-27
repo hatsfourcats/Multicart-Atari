@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\btn_mainmenu_border</sprite>
+    <sprite>sprites\spr_Enemy_bokbok</sprite>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,14 +18,21 @@
     <script>scripts\scr_Enemy_movement_topdown.gml</script>
     <script>scripts\scr_Generic_collision_topdown.gml</script>
     <script>scripts\script5.gml</script>
+    <script>scripts\scr_mainmenu.gml</script>
+    <script>scripts\scr_Enemy_create.gml</script>
+    <script>scripts\scr_Enemy_step.gml</script>
+    <script>scripts\script8.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu_border</object>
     <object>objects\obj_MenuItem</object>
+    <object>objects\obj_Enemy</object>
+    <object>objects\obj_enemy_bokbok</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen_and_globals</room>
     <room>rooms\rm_pac_cat</room>
+    <room>rooms\rm_space_bastards</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
