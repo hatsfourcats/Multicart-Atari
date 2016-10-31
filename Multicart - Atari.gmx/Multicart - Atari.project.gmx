@@ -9,25 +9,31 @@
     <sprite>sprites\btn_mainmenu_border</sprite>
     <sprite>sprites\spr_Enemy_bokbok</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_Enemy_boklow</sprite>
+    <sprite>sprites\spr_player</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background_stars</background>
+    <background>background\background2</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Player_movement_topdown.gml</script>
-    <script>scripts\scr_Player_actions.gml</script>
-    <script>scripts\scr_Enemy_movement_topdown.gml</script>
-    <script>scripts\scr_Generic_collision_topdown.gml</script>
-    <script>scripts\script5.gml</script>
+    <script>scripts\scr_actions_player.gml</script>
+    <script>scripts\scr_create_enemy.gml</script>
+    <script>scripts\scr_generic_collision.gml</script>
     <script>scripts\scr_mainmenu.gml</script>
-    <script>scripts\scr_Enemy_create.gml</script>
-    <script>scripts\scr_Enemy_step.gml</script>
-    <script>scripts\script8.gml</script>
+    <script>scripts\scr_movement_enemy.gml</script>
+    <script>scripts\scr_movement_player.gml</script>
+    <script>scripts\scr_step_enemy.gml</script>
+    <script>scripts\scr_step_player.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu_border</object>
     <object>objects\obj_MenuItem</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_enemy_bokbok</object>
+    <object>objects\obj_Player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen_and_globals</room>
@@ -38,7 +44,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\benevicious\AppData\Local\GameMaker-Studio\tutorials\07_Game_States\</TutorialName>
     <TutorialPage>3</TutorialPage>
   </TutorialState>
