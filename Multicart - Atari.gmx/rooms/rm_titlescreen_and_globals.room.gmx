@@ -13,11 +13,13 @@
   <code>global.player_name = "HatsFourCats";
 global.credits = 1;
 
-room_goto(rm_space_bastards);
+
 
 global.control_move_left = ord("A");
 global.control_move_right = ord("D");
-global.control_fire = vk_space;</code>
+global.control_fire = vk_space;
+
+room_goto(rm_space_bastards);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
