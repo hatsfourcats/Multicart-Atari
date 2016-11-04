@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\btn_mainmenu_border</sprite>
+    <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_Enemy_bokbok</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\spr_Enemy_boklow</sprite>
@@ -15,7 +16,7 @@
   <backgrounds name="background">
     <background>background\background_stars</background>
     <background>background\background2</background>
-    <background>background\background1</background>
+    <background>background\bg_starfield_far</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
