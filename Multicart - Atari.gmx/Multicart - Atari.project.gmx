@@ -28,6 +28,7 @@
     <script>scripts\scr_movement_player.gml</script>
     <script>scripts\scr_step_enemy.gml</script>
     <script>scripts\scr_step_player.gml</script>
+    <script>scripts\scr_util_roomrandom.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu_border</object>
@@ -35,6 +36,7 @@
     <object>objects\obj_Enemy</object>
     <object>objects\obj_enemy_bokbok</object>
     <object>objects\obj_Player</object>
+    <object>objects\utility_object</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen_and_globals</room>
@@ -45,7 +47,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\benevicious\AppData\Local\GameMaker-Studio\tutorials\07_Game_States\</TutorialName>
     <TutorialPage>3</TutorialPage>
   </TutorialState>

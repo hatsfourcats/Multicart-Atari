@@ -13,6 +13,8 @@
   <code>global.player_name = "HatsFourCats";
 global.credits = 1;
 
+//without randomize the same random seed is always used so random function results will return the same each time. 
+randomize();
 
 
 global.control_move_left = ord("A");
