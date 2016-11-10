@@ -6,7 +6,16 @@ move_right = keyboard_check(global.control_move_right);
 
 
 
-move_direction = (move_left + move_right) * move_speed; 
+hSpeed = (move_left + move_right) * moveRate; 
 
 
-x += move_direction;
+if place_meeting(x+hSpeed,y,obj_Solid) {
+while (!place_meeting(x+sign(hSpeed),y,obj_Solid)) {
+      x+=sign(hSpeed);
+      
+}
+hSpeed = 0;
+
+}
+
+x += hSpeed;

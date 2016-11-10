@@ -12,6 +12,7 @@
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\spr_Enemy_boklow</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_inviswall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_stars</background>
@@ -37,6 +38,7 @@
     <object>objects\obj_enemy_bokbok</object>
     <object>objects\obj_Player</object>
     <object>objects\utility_object</object>
+    <object>objects\obj_Solid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen_and_globals</room>

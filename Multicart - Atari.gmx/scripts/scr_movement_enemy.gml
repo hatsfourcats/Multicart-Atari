@@ -19,16 +19,16 @@ enum movementPatterns {
 
 // move left 3 then right 3 but i don't want it to change the instances x value directly, just return the adjusted, but how to keep track of direction. 
 
-show_debug_message("cooldown on move is " + string(moveChangeCooldown)+ "direction is " +moveDirection);
+//show_debug_message("cooldown on move is " + string(moveChangeCooldown)+ "direction is " +moveDirection);
 
 if (moveDirection = "left") {
-	if (moveChangeCooldown < 1) { moveDirection = "right"; }
-	return -moveSpeed;
+if (moveChangeCooldown < 1) { moveDirection = "right"; }
+return -moveSpeed;
 
 
 }
 
 else { 
-		if (moveChangeCooldown < 1) { moveDirection = "left"} 
-		return moveSpeed;
-	}
+if (moveChangeCooldown < 1) { moveDirection = "left"} 
+return moveSpeed;
+}
